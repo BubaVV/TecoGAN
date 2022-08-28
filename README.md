@@ -22,7 +22,7 @@ Our spatio-temporal discriminator plays a key role to guide the generator networ
 <img src="resources/tecoGAN-lizard.gif" alt="Lizard" width="900"/><br>
 
 <img src="resources/tecoGAN-armour.gif" alt="Armor" width="900"/><br>
-
+pip
 <img src="resources/tecoGAN-spider.gif" alt="Spider" width="600" hspace="150"/><br>
 
 ### Running the TecoGAN Model
@@ -50,6 +50,15 @@ python3 runGan.py 1
 python3 runGan.py 2
 
 ```
+
+### Even quicker start
+
+```bash
+pip3 install -r requirements.txt
+python3 upscale.py input.mp4 output.mp4 
+```
+
+It will upscale input.mp4 fourfold
 
 ### Train the TecoGAN Model
 
